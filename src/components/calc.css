@@ -24,6 +24,8 @@
 .input-field {
   background-color: #848692;
   height: 50px;
+  text-align: right;
+  font-size: 25px;
 }
 
 .light {
@@ -33,6 +35,14 @@
 .light-end {
   width: 33%;
   background-color: #f5913e;
+}
+
+.dot {
+  width: 33%;
+}
+
+.last {
+  width: 67%;
 }
 
 ::placeholder {
