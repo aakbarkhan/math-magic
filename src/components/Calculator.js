@@ -2,6 +2,7 @@ import React from 'react';
 import calculate from '../logic/calculate';
 // import PropTypes from 'prop-types';
 import './calc.css';
+import Btn from './Button';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -32,34 +33,33 @@ class Calculator extends React.Component {
       <div className="wrapper">
         <input className="input-field" placeholder="0" type="text" maxLength="0" value={display()} onChange={() => ''} />
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handleClick}>AC</button>
-          <button className="btn" type="button" onClick={handleClick}>+/-</button>
-          <button className="btn" type="button" onClick={handleClick}>%</button>
-          <button className="btn light" type="button" onClick={handleClick}>÷</button>
+          <Btn value="AC" className="btn" click={handleClick} />
+          <Btn value="+" className="btn" click={handleClick} />
+          <Btn value="%" className="btn" click={handleClick} />
+          <Btn value="÷" className="btn light" click={handleClick} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handleClick}>7</button>
-          <button className="btn" type="button" onClick={handleClick}>8</button>
-          <button className="btn" type="button" onClick={handleClick}>9</button>
-          <button className="btn light" type="button" onClick={handleClick}>x</button>
+          <Btn value="7" className="btn" click={handleClick} />
+          <Btn value="8" className="btn" click={handleClick} />
+          <Btn value="9" className="btn" click={handleClick} />
+          <Btn value="x" className="btn light" click={handleClick} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handleClick}>4</button>
-          <button className="btn" type="button" onClick={handleClick}>5</button>
-          <button className="btn" type="button" onClick={handleClick}>6</button>
-          <button className="btn light" type="button" onClick={handleClick}>-</button>
-
+          <Btn value="4" className="btn" click={handleClick} />
+          <Btn value="5" className="btn" click={handleClick} />
+          <Btn value="6" className="btn" click={handleClick} />
+          <Btn value="-" className="btn light" click={handleClick} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handleClick}>1</button>
-          <button className="btn" type="button" onClick={handleClick}>2</button>
-          <button className="btn" type="button" onClick={handleClick}>3</button>
-          <button className="btn light" type="button" onClick={handleClick}>+</button>
+          <Btn value="1" className="btn" click={handleClick} />
+          <Btn value="2" className="btn" click={handleClick} />
+          <Btn value="3" className="btn" click={handleClick} />
+          <Btn value="+" className="btn light" click={handleClick} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn last" type="button" onClick={handleClick}>0</button>
-          <button className="btn dot" type="button" onClick={handleClick}>.</button>
-          <button className="btn light-end" type="button" onClick={handleClick}>=</button>
+          <Btn value="0" className="btn last" click={handleClick} />
+          <Btn value="." className="btn dot" click={handleClick} />
+          <Btn value="=" className="btn light-end" click={handleClick} />
         </div>
       </div>
     );
