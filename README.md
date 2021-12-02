@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> This is is the calculator app.
 
 ![screenshot]()
 
