@@ -4,15 +4,15 @@
 
 > This is is the calculator app.
 
-![screenshot]()
+![screenshot](calc.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JS,HTML&CSS
+- REACT
+- Technologies used node.js
 
 ## Live Demo
 
