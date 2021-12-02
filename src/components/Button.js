@@ -17,7 +17,6 @@ class Btn extends React.Component {
     );
   }
 }
-
 Btn.propTypes = {
   value: PropTypes.string.isRequired,
   click: PropTypes.func.isRequired,
