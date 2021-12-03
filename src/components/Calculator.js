@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-// import PropTypes from 'prop-types';
 import './calc.css';
 import Btn from './Button';
 
@@ -10,9 +9,7 @@ const Calculator = () => {
   const [operation, setOp] = useState(null);
 
   const handleClick = (buttonName) => {
-    // const name = buttonName.target.innerText;
     const results = calculate({ total, next, operation }, buttonName);
-    // console.log(results);
     setTotal(results.total);
     setNext(results.next);
     setOp(results.operation);
