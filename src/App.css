@@ -32,3 +32,29 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+}
+
+.wrapper-er {
+  text-align: left;
+}
+
+a {
+  margin-right: 10px;
+  color: #61dafb;
+}
+
+.home-title,
+.para {
+  padding-left: 10px;
+}
