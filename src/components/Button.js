@@ -6,6 +6,7 @@ const Btn = ({ className, value, onEvent }) => (
     {value}
   </button>
 );
+
 Btn.propTypes = {
   value: PropTypes.string.isRequired,
   onEvent: PropTypes.func.isRequired,
