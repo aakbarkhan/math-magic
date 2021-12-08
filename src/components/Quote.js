@@ -1,7 +1,14 @@
 import React from 'react';
 
 function Quote() {
-  return (<h1> Early to bed and early to rise makes a man zombie</h1>);
+  return (
+    <div className="quotes">
+      <h1>
+        Mathematics is not about numbers, computations,
+        or algorithams: it is about understanding.
+      </h1>
+    </div>
+  );
 }
 
 export default Quote;
