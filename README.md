@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link not active](https://livedemo.com)
+[Live Demo Link Netlify](https://gallant-franklin-e4283e.netlify.app/)
 
 
 ## Getting Started
