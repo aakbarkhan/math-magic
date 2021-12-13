@@ -1,10 +1,9 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(223, 223, 154);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.heading {
+  font-family: sans-serif, 'Ubuntu';
+  padding: 5px;
+}
+
+.wrapper-er,
+.home-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  padding: 0 10px;
+  color: #2a93b1;
+  border-right: 2px solid black;
+}
+
+a:nth-child(3) {
+  border-right: none;
+}
+
+.home-title,
+.para {
+  padding-left: 10px;
+}
+
+.para {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quotes {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.wrapper-calc {
+  width: 79%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }

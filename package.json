@@ -6,8 +6,11 @@
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "big.js": "^6.1.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -51,17 +54,5 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aakbarkhan/math-magic.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aakbarkhan/math-magic/issues"
-  },
-  "homepage": "https://github.com/aakbarkhan/math-magic#readme"
+  }
 }
